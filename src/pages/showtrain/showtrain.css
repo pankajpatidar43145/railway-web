@@ -1,0 +1,77 @@
+.ex-showtrain-container {
+  background-color: white;
+  height: 100vh;
+  padding: 100px;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.ex-showtrain-h2 {
+  font-size: 24px;
+  margin-bottom: 16px;
+}
+
+.ex-showtrain-details {
+  margin-bottom: 24px;
+}
+
+.ex-showtrain-h3 {
+  font-size: 18px;
+  margin-bottom: 8px;
+}
+
+.ex-showtrain-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-bottom: 24px;
+}
+
+.ex-showtrain-th,
+.ex-showtrain-td {
+  padding: 12px;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+}
+
+.ex-showtrain-th {
+  font-weight: bold;
+}
+
+.ex-showtrain-td {
+  font-size: 16px;
+}
+
+.ex-showtrain-td:first-child {
+  font-weight: bold;
+}
+
+.ex-showtrain-td:last-child {
+  font-style: italic;
+}
+
+p {
+  font-size: 16px;
+  margin-bottom: 16px;
+}
+
+.book-ticket-button {
+  padding: 8px 16px;
+  background-color: #4caf50;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.book-ticket-button:hover {
+  background-color: #45a049;
+}
+
+.book-ticket-button:active {
+  background-color: #3e8e41;
+}
+
+.book-ticket-button:focus {
+  outline: none;
+}
